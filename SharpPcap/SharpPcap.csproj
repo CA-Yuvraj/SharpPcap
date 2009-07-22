@@ -243,4 +243,9 @@
     <ProjectGuid>{24262E52-1304-4A25-8F73-A3B06E40592E}</ProjectGuid>
     <RootNamespace>SharpPcap</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <None Include="SharpPcap.dll.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>
