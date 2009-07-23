@@ -13,10 +13,11 @@ namespace SharpPcap.Packets.Util
     /// <p>
     /// This file contains control sequences to print color text on a text 
     /// console capable of interpreting and displaying control sequences.
+    /// </p>
     /// <p>
     /// A capable console would be 
     /// unix bash, os/2 shell, or command.com w/ ansi.sys loaded
-    /// 
+    /// </p>
     /// </summary>
     /// <author>  Chris Cheetham
     /// </author>

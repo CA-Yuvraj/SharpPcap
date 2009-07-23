@@ -15,11 +15,12 @@ namespace SharpPcap.Packets
     /// <p>
     /// Contains link-level header and data payload encapsulated by an ethernet
     /// packet.
+    /// </p>
     /// <p>
     /// There are currently two subclasses. IP and ARP protocols are supported.
     /// IPPacket extends with ip header and data information.
     /// ARPPacket extends with hardware and protocol addresses.
-    /// 
+    /// </p>
     /// </summary>
     [Serializable]
     public class EthernetPacket : Packet, EthernetFields
@@ -27,7 +28,7 @@ namespace SharpPcap.Packets
         /// <summary> Code constants for well-defined ethernet protocols.
         /// <p>
         /// Taken from linux/if_ether.h and tcpdump/ethertype.h
-        /// 
+        /// </p>
         /// </summary>
         public struct EtherType
         {
@@ -126,6 +127,7 @@ namespace SharpPcap.Packets
         /// <p>
         /// The type field indicates what type of data is contained in the 
         /// packet's data block.
+        /// </p>
         /// </summary>
         /// <param name="packetBytes">packet bytes.
         /// </param>
@@ -262,6 +264,7 @@ namespace SharpPcap.Packets
         /// recognized as a protocol for which a class exists network library, 
         /// then a more specific class like IPPacket or ARPPacket is instantiated.
         /// The subclass can always be cast into a more generic form.
+        /// </p>
         /// </summary>
         public EthernetPacket(int lLen, byte[] bytes)
         {

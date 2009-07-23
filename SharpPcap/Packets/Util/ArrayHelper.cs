@@ -96,7 +96,7 @@ namespace SharpPcap.Packets.Util
         /// </summary>
         /// <param name="bytes">an array.
         /// </param>
-        /// <param name="value">the long to insert into the array.
+        /// <param name="value_Renamed">the long to insert into the array.
         /// </param>
         /// <param name="pos">the starting position into which the long is inserted.
         /// </param>
@@ -124,7 +124,7 @@ namespace SharpPcap.Packets.Util
         /// <summary> Convert a long integer into an array of bytes.
         /// 
         /// </summary>
-        /// <param name="value">the long to convert.
+        /// <param name="value_Renamed">the long to convert.
         /// </param>
         /// <param name="cnt">the number of bytes to convert.
         /// </param>
@@ -144,7 +144,7 @@ namespace SharpPcap.Packets.Util
         /// (i.e. this does the same thing as toBytes() but returns an array 
         /// in reverse order from the array returned in toBytes().
         /// </summary>
-        /// <param name="value">the long to convert.
+        /// <param name="value_Renamed">the long to convert.
         /// </param>
         /// <param name="cnt">the number of bytes to convert.
         /// </param>

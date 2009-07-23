@@ -14,7 +14,7 @@ namespace SharpPcap.Packets
     /// <summary> An ICMP packet.
     /// <p>
     /// Extends an IP packet, adding an ICMP header and ICMP data payload.
-    /// 
+    /// </p>
     /// </summary>
     [Serializable]
     public class ICMPPacket : IPPacket, ICMPFields

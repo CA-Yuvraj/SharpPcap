@@ -10,12 +10,14 @@ namespace SharpPcap.Packets
         /// <p>
         /// TOS is an 8-bit record in an IP header which contains a 3-bit 
         /// precendence field, 4 TOS bit fields and a 0 bit.
+        /// </p>
         /// <p>
         /// The following constants are bit masks which can be logically and'ed
         /// with the 8-bit IP TOS field to determine what type of service is set.
+        /// </p>
         /// <p>
         /// Taken from TCP/IP Illustrated V1 by Richard Stevens, p34.
-        /// 
+        /// </p>
         /// </summary>
         public struct TypesOfService_Fields{
             public readonly static int MINIMIZE_DELAY = 0x10;
@@ -350,7 +352,7 @@ namespace SharpPcap.Packets
         }
 
         /// <summary> Fetch fragmentation flags.</summary>
-        /// </summary>
+        /// 
         /// <param name="flags">A 3-bit unsigned integer.
         /// </param>
         public virtual int FragmentFlags
@@ -390,7 +392,7 @@ namespace SharpPcap.Packets
         }
 
         /// <summary> Fetch the code indicating the type of protocol embedded in the IP</summary>
-        /// <seealso cref="IPProtocols.">
+        /// <seealso cref="IPProtocol">
         /// </seealso>
         public virtual IPProtocol.IPProtocolType IPProtocol
         {

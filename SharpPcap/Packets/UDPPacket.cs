@@ -14,7 +14,7 @@ namespace SharpPcap.Packets
     /// <summary> A UDP packet.
     /// <p>
     /// Extends an IP packet, adding a UDP header and UDP data payload.
-    /// 
+    /// </p>
     /// </summary>
     [Serializable]
     public class UDPPacket : IPPacket, UDPFields

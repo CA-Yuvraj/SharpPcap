@@ -13,7 +13,7 @@ namespace SharpPcap.Packets
     /// <summary> A TCP packet.
     /// <p>
     /// Extends an IP packet, adding a TCP header and TCP data payload.
-    /// 
+    /// </p>
     /// </summary>
     [Serializable]
     public class TCPPacket : IPPacket, TCPFields

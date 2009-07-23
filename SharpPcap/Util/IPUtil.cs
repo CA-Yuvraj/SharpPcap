@@ -34,7 +34,7 @@ namespace SharpPcap.Util
 {
     public class IPUtil
     {
-        /// <param name="ipAndMaskBits">
+        /// <param name="ipRange">
         /// </param>
         /// <returns>
         /// </returns>
@@ -59,7 +59,7 @@ namespace SharpPcap.Util
             }
         }
         
-        /// <param name="ipAndMaskBits">
+        /// <param name="ipRange">
         /// </param>
         /// <returns>
         /// </returns>

@@ -13,12 +13,13 @@ namespace SharpPcap.Packets
     /// This class currently contains no implementation because only ethernet 
     /// is supported. In other words, all instances of packets returned by 
     /// packet factory will always be at least as specific as EthernetPacket.
+    /// </p>
     /// <p>
     /// On large ethernet networks, I sometimes see packets which don't have 
     /// link-level ethernet headers. If and when I figure out what these are, 
     /// maybe this class will be the root node of a packet hierarchy derived 
     /// from something other than ethernet.
-    /// 
+    /// </p>
     /// </summary>
     [Serializable]
     public class Packet

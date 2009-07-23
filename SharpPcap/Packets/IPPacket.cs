@@ -15,7 +15,7 @@ namespace SharpPcap.Packets
     /// <p>
     /// Extends an ethernet packet, adding IP header information and an IP 
     /// data payload. 
-    ///
+    /// </p>
     /// </summary>
     [Serializable]
     public class IPPacket : EthernetPacket

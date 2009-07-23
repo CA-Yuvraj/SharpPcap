@@ -10,7 +10,7 @@ namespace SharpPcap.Packets
     /// <summary> Packet encoding.
     /// <p>
     /// Contains utility methods for decoding generic packets.
-    /// 
+    /// </p>
     /// </summary>
     public class PacketEncoding
     {       

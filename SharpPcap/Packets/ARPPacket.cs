@@ -16,7 +16,7 @@ namespace SharpPcap.Packets
     /// <p>
     /// Extends an ethernet packet, adding ARP header information and an ARP 
     /// data payload. 
-    /// 
+    /// </p>
     /// </summary>
     [Serializable]
     public class ARPPacket : EthernetPacket, ARPFields

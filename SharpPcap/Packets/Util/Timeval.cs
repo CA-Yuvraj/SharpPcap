@@ -7,7 +7,7 @@
 using System;
 namespace SharpPcap.Packets.Util
 {
-    /// <summary> POSIX.4 timeval
+    /// <summary> POSIX.4 timeval </summary>
     [Serializable]
     public class Timeval
     {

@@ -61,7 +61,7 @@ namespace SharpPcap
         internal extern static int pcap_next_ex(IntPtr /* pcap_t* */ adaptHandle, ref IntPtr /* **pkt_header */ header , ref IntPtr  data);
 
         /// <summary>
-        /// Send a raw packet.<br>
+        /// Send a raw packet.<br/>
         /// This function allows to send a raw packet to the network. 
         /// The MAC CRC doesn't need to be included, because it is transparently calculated
         ///  and added by the network interface driver. /// </summary>
@@ -83,7 +83,7 @@ namespace SharpPcap
         /// <summary>
         /// Destroy a send queue. 
         /// </summary>
-        /// <param name="queue">A pointer to the queue start address</queue>
+        /// <param name="queue">A pointer to the queue start address</param>
         [DllImport(PCAP_DLL, CharSet=CharSet.Ansi)]
         internal extern static void pcap_sendqueue_destroy(IntPtr /* pcap_send_queue * */queue) ;
 
